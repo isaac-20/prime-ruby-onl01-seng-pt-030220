@@ -1,7 +1,9 @@
 def prime?(array)
-  if array[i] % 2 == 1 && array[i]
-    return true
-  else 
-    return false
+  i = 0
+  while i < array.length
+    if array[i] % 2 == 1 && array[i]
+      return true
+    else 
+      return false
   end
 end
