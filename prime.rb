@@ -3,4 +3,9 @@ def prime?(array)
   while i < array.length
     i += 1
     if array[i]/1..array[i]  % 1
-      return 
+      return true
+    else 
+      return false
+    end
+  end
+end
